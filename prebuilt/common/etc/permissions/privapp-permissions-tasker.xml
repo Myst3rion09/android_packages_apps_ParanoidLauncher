@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications on GMS or Google-branded devices.
+It allows additional grants on top of privapp-permissions-platform.xml
+-->
+<permissions>
+    <privapp-permissions package="net.dinglisch.android.taskerm"> 
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.SET_VOLUME_KEY_LONG_PRESS_LISTENER"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.SET_MEDIA_KEY_LISTENER"/>
+    </privapp-permissions>
+</permissions>
